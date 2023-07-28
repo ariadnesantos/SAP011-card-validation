@@ -1,14 +1,96 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-br">
   <head>
     <meta charset="utf-8">
-    <title>Tarjeta de crédito válida</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Academia PrograMarombas</title>
+
     <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;900&display=swap" rel="stylesheet">
   </head>
+
   <body>
-    <header></header>
-    <main></main>
-    <footer></footer>
-    <script src="index.js" type="module"></script>
+
+    <header>ACADEMIA PROGRAMAROMBAS</header>
+    
+  <main>
+    <section class="payment">
+      <div class="payment-description">
+        <h3>Comece hoje o seu PROJETO FIT com a gente!</h3>
+        <br><br>
+        <h2>Mensalidade <br> R$79,99 por mês</h2>
+      </div>
+
+      <div class="form-payment">
+ 
+      <form id="form"  class="form" method="POST">
+      
+        <div class='form-control'>
+        <label for="name">Nome</label>
+        <input type="text" id="name" placeholder="Digite o seu nome completo" />
+        <i class="fas fa-exclamation-circle"></i>
+        <i class="fas fa-check-circle"></i>
+        <small class="error-message">Mensagem de erro</small>
+        <!-- //O nome completo é obrigatório. -->
+        <br><br>
+        </div>
+
+        <div class='form-control'>
+        <label>E-mail</label>
+        <input type="text" id="email" placeholder="Digite o seu e-mail" />
+        <i class="fas fa-exclamation-circle"></i>
+        <i class="fas fa-check-circle"></i>
+        <small class="error-message">Mensagem de erro</small>
+        <!-- O e-mail é obrigatório. -->
+        <br><br>
+        </div>
+
+        <div class='form-control'>
+        <label for="creditCard">Dados do Cartão</label>
+        <input type="text" id="creditCard" placeholder="Digite o número do seu cartão" />
+        <i class="fas fa-exclamation-circle"></i>
+        <i class="fas fa-check-circle"></i>
+        <small class="error-message">Mensagem de erro</small>
+        <div id="result"></div>
+        <!-- Teste do div id - Digite um cartão de crédito válido -->
+        <br>
+        </div>
+
+        <div class="form-50">
+        <input type="text" id="expiryDate" placeholder="MM/AA" />
+        <i class="fas fa-exclamation-circle"></i>
+        <i class="fas fa-check-circle"></i>
+        <small class="error-message">Mensagem de erro</small>
+
+        <input type="text" id="cvc" placeholder="CVC" />
+        <i class="fas fa-exclamation-circle"></i>
+        <i class="fas fa-check-circle"></i>
+        <small class="error-message">Mensagem de erro</small>
+        </div>
+
+        <br><br>
+
+        <input type="submit" id="verification" value="Finalizar  Matrícula" />
+     
+      </form>
+      </div>
+
+    </section>
+
+
+    <footer>EXCLUSIVA PARA MULHERES</footer>
+  </main>
+
+
+
+ 
+    <script src="https://kit.fontawesome.com/407aab0a0a.js" crossorigin="anonymous"></script>
+    <script src="./index.js" type="module"></script>
+    
   </body>
+
 </html>
