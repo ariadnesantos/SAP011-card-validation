@@ -125,7 +125,7 @@ footer {
     visibility: hidden;
 }
 
-.form-control small {
+.form-control .error-message {
     position: absolute;
     bottom: 0;
     left: 0;
@@ -145,7 +145,14 @@ footer {
 .form-control.error input {
     border-color: #e74c3c;
 }
-  
+
+.form-50.error input {
+    border-color:#e74c3c;
+}
+
+.form-50.sucess input {
+    border-color: #2ecc71;
+}
 .form-control.success i.fa-check-circle {
     color: #2ecc71;
     visibility: visible;

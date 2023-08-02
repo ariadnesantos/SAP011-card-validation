@@ -47,6 +47,7 @@ console.log(validator);
     } else {
       setSuccessFor(cvc);
     }
+  }
 
     const formControls = form.querySelectorAll(".form-control");
 
@@ -55,19 +56,38 @@ console.log(validator);
     });
 
     if (formIsValid) {
-      console.log("O formulário está 100% válido!");
-      // Adicionar aqui o código para enviar o formulário ou realizar outras ações
+      alert ("O formulário está 100% válido!");
+      // Adicionar aqui o alert para dizer se o formulário está 100% válido  
     }
-  }
 
-  function setErrorFor(input, message) {
+    // adicionar outro p comparação --------------------------------------------------------
+    function setErrorFor(input, message) {
+      const formControl = input.parentElement;
+      const small = formControl.querySelector("small");
+    
+      // Adiciona a mensagem de erro
+      small.innerText = message;
+    
+      // Adiciona a classe de erro
+      formControl.className = "form-control error";
+    }
+    
+    function setSuccessFor(input) {
+      const formControl = input.parentElement;
+    
+      // Adicionar a classe de sucesso
+      formControl.className = "form-control success";
+    }
+
+    // final da comparação ----------------------------------------------------
     const formControl = input.parentElement;
     const small = formControl.querySelector("small");
 
+   // Esse small não está funcionando
     small.innerText = message;
     formControl.classList.remove("success");
     formControl.classList.add("error");
-  }
+  
 
   function setSuccessFor(input) {
     const formControl = input.parentElement;
