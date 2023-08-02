@@ -60,26 +60,6 @@ console.log(validator);
       // Adicionar aqui o alert para dizer se o formulário está 100% válido  
     }
 
-    // adicionar outro p comparação --------------------------------------------------------
-    function setErrorFor(input, message) {
-      const formControl = input.parentElement;
-      const small = formControl.querySelector("small");
-    
-      // Adiciona a mensagem de erro
-      small.innerText = message;
-    
-      // Adiciona a classe de erro
-      formControl.className = "form-control error";
-    }
-    
-    function setSuccessFor(input) {
-      const formControl = input.parentElement;
-    
-      // Adicionar a classe de sucesso
-      formControl.className = "form-control success";
-    }
-
-    // final da comparação ----------------------------------------------------
     const formControl = input.parentElement;
     const small = formControl.querySelector("small");
 
