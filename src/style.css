@@ -132,39 +132,11 @@ footer {
     visibility: hidden;
 }
 
-.form-50 small {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    visibility: hidden;
-}
 .form-control.success input {
     border-color: #2ecc71;
 }
   
 .form-control.error input {
     border-color: #e74c3c;
-}
-
-.form-50.error input {
-    border-color:#e74c3c;
-}
-
-.form-50.sucess input {
-    border-color: #2ecc71;
-}
-.form-control.success i.fa-check-circle {
-    color: #2ecc71;
-    visibility: visible;
-}
-  
-.form-control.error i.fa-exclamation-circle {
-    color: #e74c3c;
-    visibility: visible;
-}
-  
-.form-control.error small {
-    visibility: visible;
-    color: #e74c3c;
 }
 

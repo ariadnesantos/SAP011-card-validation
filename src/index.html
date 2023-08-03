@@ -32,9 +32,6 @@
         <div class='form-control'>
         <label for="name">Nome</label>
         <input type="text" id="name" placeholder="Digite o seu nome completo" />
-        <i class="fas fa-exclamation-circle"></i>
-        <i class="fas fa-check-circle"></i>
-        <small class="error-message">Mensagem de erro</small>
         <!-- O nome completo é obrigatório. -->
         <br><br>
         </div>
@@ -42,39 +39,20 @@
         <div class='form-control'>
         <label>E-mail</label>
         <input type="text" id="email" placeholder="Digite o seu e-mail" />
-        <i class="fas fa-exclamation-circle"></i>
-        <i class="fas fa-check-circle"></i>
-        <small class="error-message">Mensagem de erro</small>
         <!-- O e-mail é obrigatório. -->
         <br><br>
         </div>
 
-        <div class='form-control'>
-        <label for="card">Dados do Cartão</label>
-        <input type="text" id="card" placeholder="Digite o número do seu cartão" />
-        <i class="fas fa-exclamation-circle"></i>
-        <i class="fas fa-check-circle"></i>
-        <small class="error-message">Mensagem de erro</small>
-        <div id="result"></div>
+        <div class='form-control' id="result">
+        <label for="creditCardNumber">Dados do Cartão</label>
+        <input type="text" id="creditCardNumber" maxlength="16" placeholder="Digite o número do seu cartão" />
         <!-- Teste do div id - Digite um cartão de crédito válido -->
-        <br>
-        </div>
-
-        <div class="form-50">
-        <input type="text" id="expiryDate" placeholder="MM/AA" />
-        <i class="fas fa-exclamation-circle"></i>
-        <i class="fas fa-check-circle"></i>
-        <small class="error-message">Mensagem de erro</small>
-
-        <input type="text" id="cvc" placeholder="CVC" />
-        <i class="fas fa-exclamation-circle"></i>
-        <i class="fas fa-check-circle"></i>
-        <small class="error-message">Mensagem de erro</small>
-        </div>
-
         <br><br>
+        </div>
 
-        <input type="submit" id="verification" value="Finalizar  Matrícula" />
+      
+
+        <input type="submit" onclick="validateCreditCard()" id="verification" value="Finalizar  Matrícula" />
      
       </form>
       </div>
@@ -83,14 +61,10 @@
   </main>
 
     <footer>EXCLUSIVA PARA MULHERES</footer>
-  
-
-
-
     
     <script src="https://kit.fontawesome.com/407aab0a0a.js" crossorigin="anonymous"></script>
     <script src="./index.js" type="module"></script>
-    
+    <script src="./index.js"></script>
   </body>
 
 </html>
