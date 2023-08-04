@@ -31,30 +31,31 @@
       
         <div class='form-control'>
         <label for="name">Nome</label>
-        <input type="text" id="name" placeholder="Digite o seu nome completo" />
-        <!-- O nome completo é obrigatório. -->
+        <input type="text" id="name" placeholder="Digite o seu nome completo" required/>
+        
         <br><br>
         </div>
 
         <div class='form-control'>
         <label>E-mail</label>
-        <input type="text" id="email" placeholder="Digite o seu e-mail" />
-        <!-- O e-mail é obrigatório. -->
+        <input type="text" id="email" placeholder="Digite o seu e-mail" required/>
+      
         <br><br>
         </div>
 
         <div class='form-control' id="result">
-        <label for="creditCardNumber">Dados do Cartão</label>
-        <input type="text" id="creditCardNumber" maxlength="16" placeholder="Digite o número do seu cartão" />
+        <label for="cardNumber">Número do Cartão</label>
+        <input type="text" id="cardNumber" maxlength="16" placeholder="Digite o número do seu cartão" required/>
         <!-- Teste do div id - Digite um cartão de crédito válido -->
         <br><br>
         </div>
 
       
 
-        <input type="submit" onclick="validateCreditCard()" id="verification" value="Finalizar  Matrícula" />
+        <button type="submit" id="verification">Finalizar Matrícula</button>
      
       </form>
+      <div class="result" id="result"></div>
       </div>
 
     </section>

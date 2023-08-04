@@ -83,7 +83,7 @@ section.payment{
     border: 2px solid #ce94bc;
 }
 
-.form-payment input[type=submit]{
+.form-payment button[type=submit]{
     width: 100%;
     height: 40px;
     border: 0;
@@ -122,13 +122,6 @@ footer {
     position: absolute;
     top: 45px;
     right: 10px;
-    visibility: hidden;
-}
-
-.form-control .error-message {
-    position: absolute;
-    bottom: 0;
-    left: 0;
     visibility: hidden;
 }
 
