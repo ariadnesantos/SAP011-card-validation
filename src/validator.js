@@ -1,9 +1,11 @@
 
-  document.addEventListener('DOMContentLoaded', function () {
-    const form = document.getElementById('creditCardForm');
-    const resultDiv = document.getElementById('result');
+
+
+  isValid: document.addEventListener("DOMContentLoaded", function () {
+    const form = document.getElementById("form");
+    const resultDiv = document.getElementById("result");
   
-    form.addEventListener('submit', function (event) {
+    form.addEventListener("submit", function (event) {
       event.preventDefault();
   
       const cardNumber = document.getElementById('cardNumber').value;
@@ -45,6 +47,10 @@
     }
   });
 
+  const validator = {
+      isValid, maskifyCardNumber
+   } 
 
+   export default validator;
   
  
