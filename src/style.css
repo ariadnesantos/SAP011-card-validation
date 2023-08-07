@@ -85,6 +85,7 @@ section.payment{
     cursor: pointer;
     background-color: #CD519D;
     color: white;
+    margin-top: 15px;
 }
 
 .form-control {
@@ -105,11 +106,13 @@ footer {
     position: absolute;
 }
 
-.form-control i {
-    position: absolute;
-    top: 45px;
-    right: 10px;
-    visibility: hidden;
+  .result {
+    margin-top: 2px;
+    text-align: left;
   }
+  
+  input:required{
+    border: 1px 
+    color(from color srgb r g b)
 
-
+  }

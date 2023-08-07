@@ -1,6 +1,8 @@
-//// teste sem o index.js para ver se o validator funciona////
+import validator from './validator';
+//Fazer a validação do e-mail aqui
+console.log(validator);
 
-import validator from './validator.js';
+
 
 
 
