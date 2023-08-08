@@ -1,0 +1,118 @@
+*{
+ margin: 0;
+ box-sizing: border-box;
+ padding: 0;
+ font-family: "Poppins", sans-serif;
+ border-radius: 9px;
+ margin-bottom: auto;
+ 
+}
+
+body {
+    background-position: center center;
+    background-image: left center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(https://img.freepik.com/fotos-gratis/fones-de-ouvido-e-pesos-com-espaco-para-texto_23-2148343774.jpg?w=900&t=st=1690452100~exp=1690452700~hmac=b50347b93079f8f891aeebd72200615e41be6d41cf9e4f1935f394a995abdcbe)
+ 
+}
+
+header {
+    font-family: "Poppins", sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    height: 80px;
+    line-height: 80px;
+    border-radius: 0%;
+    text-align: center;
+    background-color: #c4358d;
+    color: white;
+}
+
+section.payment{
+    display: flex;
+    max-width: 1200px;
+    justify-content: space-around;
+    padding: 0 2%;
+    margin: 40px auto;
+    border-radius: 8px;
+}
+
+.payment-description{
+    width: 50%;
+}
+
+.payment-description h3{
+    color: #c4358d;
+    font-size: 20px;
+}
+
+.payment-description h2{
+    color: #c4358d;
+    font-size: 43px;
+}
+
+.form-payment{
+    -webkit-box-shadow: -8px 5px 15px 5px #C7C7C7;
+    box-shadow: -8px 5px 15px 5px #c4358d;
+    padding: 30px 30px 80px 30px;
+    width: 50%; 
+}
+
+.form-payment form{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.form-payment label {
+    display: inline-block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #c4358d;
+}
+
+.form-payment input[type=text]{
+    padding-left: 10px;
+    width: 100%;
+    height: 40px;
+    border: 2px solid #c4358d;
+}
+
+.form-payment button[type=submit]{
+    width: 100%;
+    height: 40px;
+    border: 0;
+    cursor: pointer;
+    background-color: #c4358d;
+    color: white;
+    margin-top: 15px;
+}
+
+.form-control {
+    width: 100%;
+}
+
+footer {
+    font-weight: bold;
+    color:white;
+    background-color:#c4358d;
+    border-radius: 0%;
+    text-align: center;
+    height: 30px;
+    line-height: 30px;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    position: absolute;
+}
+
+  .result {
+    margin-top: 2px;
+    text-align: left;
+  }
+  
+  input:required{
+    border: 1px 
+    color(from color srgb r g b)
+
+  }
