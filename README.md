@@ -1,5 +1,6 @@
 <h1 align="center">ACADEMIA PROGRAMAROMBAS</h1>
-![Layout-do-projeto](image-1.png)
+
+![Captura de tela - Academia Programarombas](https://github.com/ariadnesantos/SAP011-card-validation/assets/139479197/0eb73eb7-c4c5-4ede-a80b-4b9c5eefd03c)
 
 # Índice
 
@@ -25,7 +26,7 @@ Projeto em Construção
 
 - Exige que todos os campos sejam preenchidos antes da validação, caso contrário, será exibido um alerta para que a usuária preencha os campos vazios.
 
-![GIF-Demonstração](Academia Programarombas.gif)
+![Academia PrograMarombas](https://github.com/ariadnesantos/SAP011-card-validation/assets/139479197/bd5a0d10-0416-4ca5-b2e0-a7a7edd31189)
 
 # Acesso ao projeto
 
