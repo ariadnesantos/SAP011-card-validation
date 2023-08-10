@@ -34,8 +34,8 @@ https://ariadnesantos.github.io/SAP011-card-validation/
 
 # Tecnologias Utilizadas
 
-- 'HTML'
-- 'CSS'
-- 'JavaScript'
+- HTML
+- CSS
+- JavaScript
 
 
