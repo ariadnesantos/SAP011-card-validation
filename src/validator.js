@@ -1,21 +1,3 @@
-document.addEventListener("DOMContentLoaded", function () {
-  const form = document.getElementById("form");
-  const resultDiv = document.getElementById("result");
-
-  form.addEventListener("submit", function (event){
-    event.preventDefault();
-
-    const cardNumber = document.getElementById("cardNumber").value;
-
-    if (isValid(cardNumber)){
-      resultDiv.textContent = "Cartão Válido!";
-    } else {
-      resultDiv.textContent = "Por favor, insira um cartão de crédito válido.";
-    }
-
-    maskify(cardNumber);
-  });
-});
 
 function isValid(cardNumber){
   const cleanedNumber=cardNumber.replace(/\s/g,"");
@@ -39,8 +21,8 @@ function isValid(cardNumber){
 }
 
 function maskify(cardNumber) {
-  const masked=cardNumber.slice(0, -4).replace(/\d/g,"#")+cardNumber.slice(-4);
-  document.getElementById("cardNumber").value=masked;
+  const masked=cardNumber.slice(0, -4).replace(/[a-zA-Z0-9]/g,"#")+cardNumber.slice(-4);
+  return masked;
 }
 const validator = {isValid, maskify}
 export default validator;

@@ -25,7 +25,7 @@ header {
     line-height: 80px;
     border-radius: 0%;
     text-align: center;
-    background-color: #CD519D;;
+    background-color: #c4358d;
     color: white;
 }
 
@@ -43,47 +43,47 @@ section.payment{
 }
 
 .payment-description h3{
-    color: #cf5ca3;
+    color: #c4358d;
     font-size: 20px;
 }
 
 .payment-description h2{
-    color: #CD519D;;
-    font-size: 60px;
+    color: #c4358d;
+    font-size: 43px;
 }
 
-.form-payment{
+.payment-form{
     -webkit-box-shadow: -8px 5px 15px 5px #C7C7C7;
-    box-shadow: -8px 5px 15px 5px #CD519D;;
+    box-shadow: -8px 5px 15px 5px #c4358d;
     padding: 30px 30px 80px 30px;
     width: 50%; 
 }
 
-.form-payment form{
+.payment-form form{
     display: flex;
     flex-wrap: wrap;
 }
 
-.form-payment label {
+.payment-form label {
     display: inline-block;
     margin-bottom: 8px;
     font-weight: bold;
-    color: #CD519D;
+    color: #c4358d;
 }
 
-.form-payment input[type=text]{
+.payment-form input[type=text]{
     padding-left: 10px;
     width: 100%;
     height: 40px;
-    border: 2px solid #ce94bc;
+    border: 2px solid #c4358d;
 }
 
-.form-payment button[type=submit]{
+.payment-form button[type=submit]{
     width: 100%;
     height: 40px;
     border: 0;
     cursor: pointer;
-    background-color: #CD519D;
+    background-color: #c4358d;
     color: white;
     margin-top: 15px;
 }
@@ -95,7 +95,7 @@ section.payment{
 footer {
     font-weight: bold;
     color:white;
-    background-color:#CD519D;
+    background-color:#c4358d;
     border-radius: 0%;
     text-align: center;
     height: 30px;
